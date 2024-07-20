@@ -1,0 +1,136 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+}
+
+/* Navbar styles */
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004d99;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav .start {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.1em;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.nav .forecast {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.1em;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.nav .stock-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nav .stock-input input {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.nav .stock-input button {
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav .stock-input button:hover {
+    background-color: #005f99;
+}
+
+.nav .date-input {
+    height: 40px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.nav .selectors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nav .selectors button {
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav .selectors button:hover {
+    background-color: #005f99;
+}
+
+.nav .selectors input {
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Content styles */
+.content .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004d99;
+    color: white;
+    padding: 15px;
+}
+
+.content .logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.content .company-name {
+    font-size: 1.8em;
+}
+
+.content #description {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    border-radius:
